@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
 # Load the data
-df = pd.read_csv('/data/iris.csv')
+df = pd.read_csv('iris.csv')
 
 st.dataframe(df)
 
