@@ -10,7 +10,7 @@ df = pd.read_csv('iris.csv')
 st.dataframe(df)
 
 # Split the data into training and testing sets
-X = df[['Sepal.Length', 'Sepal.Width', 'Petal.Length', 'Petal.Width']]
+X = df[['Sepal_Length', 'Sepal_Width', 'Petal_Length', 'Petal_Width']]
 y = df['Species']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)
 
